@@ -1,0 +1,137 @@
+%%%%%%%%%%%%%%%%%%%
+% CV de Hafsa TAMIR - adapté à partir du template altacv.cls
+% (basé sur le template original de LianTze Lim, liantze@gmail.com)
+% Fichier fusionné : main.tex + page1sidebar.tex + page2sidebar.tex
+%%%%%%%%%%%%%%%%
+\documentclass[10pt,a4paper]{altacv}
+
+% Mise en page
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+% Police
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% Couleurs (beige/neutre)
+\definecolor{VividPurple}{HTML}{6B5B4B}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\begin{document}
+
+%% ------- PHOTO -------
+%% Le fichier image "mmm" (mmm.jpeg) doit être dans le même dossier
+\photo{2.8cm}{mmm}
+
+\name{Hafsa TAMIR}
+\tagline{Étudiante en 4ème année Gestion à l'ENCG Settat}
+
+\personalinfo{%
+  \email{hafsatamir22@gmail.com}
+  \phone{06 20 53 51 30}
+  \location{Casablanca, Maroc}
+  \linkedin{linkedin.com/in/hafsa-tamir-6324ba317}
+}
+
+\begin{adjustwidth}{}{-8cm}
+\makecvheader
+\end{adjustwidth}
+
+%% ===================================================================
+%% SIDEBAR PAGE 1 (contenu venant de page1sidebar.tex)
+%% Placé dans la marge grâce à \marginpar, comme prévu par altacv.cls
+%% ===================================================================
+\marginpar{
+\cvsection{Langues}
+
+\cvskill{Arabe}{5}
+\smallskip
+\cvskill{Français}{4}
+\smallskip
+\cvskill{Anglais}{4}
+\smallskip
+\cvskill{Espagnol}{2}
+
+\divider
+
+\cvsection{Informatique}
+
+\cvtag{Word}
+\cvtag{Excel}
+\cvtag{PowerPoint}
+\cvtag{VBA}
+\cvtag{Python}
+\cvtag{Sphinx}
+\cvtag{Power BI}
+
+\divider
+
+\cvsection{Compétences}
+
+\begin{itemize}
+\item Capacité d'adaptation
+\item Capacité à travailler en équipe
+\item Rigoureuse et précise
+\item Capacité à exercer un leadership positif dans un cadre d'équipe
+\end{itemize}
+}
+
+%% ------- FORMATION -------
+\cvsection{Formation}
+
+\cvevent{École Nationale de Commerce et de Gestion (ENCG) Settat}{Étudiante en 4\up{ème} année}{2026 -- 2027}{Settat, Maroc}
+
+\divider
+
+\cvevent{Baccalauréat -- Sciences Physiques}{Mention Très Bien}{2022 -- 2023}{Maroc}
+
+%% ------- EXPÉRIENCES -------
+\cvsection{Expériences}
+
+\cvevent{Stage}{Sanlam Assurance}{2024 -- 2025}{Maroc}
+\begin{itemize}
+\item Suivi administratif et opérationnel des dossiers d'assurance
+\item Gestion des contrats et relation clients
+\item Traitement et suivi des dossiers de sinistres
+\item Coordination avec les clients et services internes pour le règlement des sinistres
+\end{itemize}
+
+\divider
+
+\cvevent{Stage}{Cabinet Progestion Audit}{2025 -- 2026}{Maroc}
+\begin{itemize}
+\item Saisie comptable sur Synergie
+\item Préparation de la TVA sur Excel
+\item Vérification et classement des pièces comptables
+\end{itemize}
+
+%% ------- PROJETS ACADÉMIQUES -------
+\cvsection{Projets académiques}
+
+\cvevent{Serious Game}{Chef de projet}{2023 -- 2024}{}
+\begin{itemize}
+\item Recherche d'une idée d'entreprenariat innovante dans le domaine des coopératives d'artisanat, formalisation de l'idée et participation aux différents aspects de transformation de l'AGR en projet entrepreneurial
+\item Simulation de la création d'une entreprise à travers un jeu de rôle dynamique
+\end{itemize}
+
+\divider
+
+\cvevent{Dossier d'entreprise -- Digitalisation du secteur du transport}{Chef de projet}{2024 -- 2025}{}
+\begin{itemize}
+\item Analyse du cadre juridique pour la légalisation d'InDrive
+\item Analyse des impacts économiques et sociaux d'InDrive
+\item Élaboration de recommandations pour une intégration légale d'InDrive
+\end{itemize}
+
+\divider
+
+
+\end{document}
